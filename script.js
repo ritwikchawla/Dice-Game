@@ -6,10 +6,10 @@ document.getElementById("img2").src = "./images/dice" + num2 + ".png";
 
 if (num1 > num2) {
   document.querySelector("h3").innerHTML = "Shivani Wins! 💅";
-}
-if (num1 === mum2) {
-  document.querySelector("h3").innerHTML = "Draw!";
-} else {
+} else if (num1 < num2) {
   document.querySelector("h3").innerHTML = "Ritwik Wins! 💪";
+} else {
+  document.querySelector("h3").innerHTML = "Draw!";
 }
+
 
